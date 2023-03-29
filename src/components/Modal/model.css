@@ -1,0 +1,94 @@
+.modal-container {
+  height: 200px;
+}
+.form {
+  font-family: "Open Sans";
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-family: "Open Sans";
+  color: #0f2137;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.input {
+  font-family: "Open Sans";
+  font-size: 16px;
+  border: 1px solid #e3e4e8;
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.input:focus {
+  font-family: "Open Sans";
+  outline: none;
+  border: 1px solid #62bfad;
+}
+
+.textarea {
+  resize: none;
+  font-family: "Open Sans";
+  font-size: 16px;
+  border: 1px solid #e3e4e8;
+  width: 100%;
+  height: 120px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.textarea:focus {
+  font-family: "Open Sans";
+  outline: none;
+  border: 1px solid #62bfad;
+}
+
+.reactModalContent {
+  font-family: "Open Sans";
+  position: absolute;
+  top: 120px;
+
+  bottom: 120px;
+  width: 750px;
+  height: 200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  padding: 24px;
+  overflow: auto;
+}
+.error {
+  color: red;
+}
+.reactModalOverlay {
+  font-family: "Open Sans";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modalContentHelper {
+  position: relative;
+  height: 100%;
+  padding: 64px 0;
+}
+
+.modalClose {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 1);
+  font-size: 24px;
+  line-height: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
